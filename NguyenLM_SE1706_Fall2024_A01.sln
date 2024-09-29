@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NguyenLMFall2024WPF", "NguyenLMFall2024WPF\NguyenLMFall2024WPF.csproj", "{F4E4F15A-3AAD-4E4D-BA9C-A74FEDE13B5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NguyenLMFall2024WPF", "NguyenLMFall2024WPF\NguyenLMFall2024WPF.csproj", "{F4E4F15A-3AAD-4E4D-BA9C-A74FEDE13B5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{95335D0C-D6BD-4423-818D-038DF35ED1E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository", "Repository\Repository.csproj", "{95335D0C-D6BD-4423-818D-038DF35ED1E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{7C4C95B3-D35B-4491-AC3E-7EE5A08E2D28}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service", "Service\Service.csproj", "{7C4C95B3-D35B-4491-AC3E-7EE5A08E2D28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessObject", "BusinessObject\BusinessObject.csproj", "{25933E32-F657-4F08-BE05-E67D42EBBD31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessObject", "BusinessObject\BusinessObject.csproj", "{25933E32-F657-4F08-BE05-E67D42EBBD31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAO", "DAO\DAO.csproj", "{36EB2666-23A9-47BB-A6C3-69360502325F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAO", "DAO\DAO.csproj", "{36EB2666-23A9-47BB-A6C3-69360502325F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
