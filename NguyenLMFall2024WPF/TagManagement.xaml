@@ -1,0 +1,35 @@
+﻿<Window x:Class="NguyenLMFall2024WPF.TagManagement"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NguyenLMFall2024WPF"
+        mc:Ignorable="d"
+        WindowStyle="None"
+        Title="TagManagement" Height="324" Width="645">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="92"/>
+            <RowDefinition Height="44"/>
+            <RowDefinition Height="46"/>
+            <RowDefinition Height="42"/>
+            <RowDefinition Height="134"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="142*"/>
+            <ColumnDefinition Width="589*"/>
+            <ColumnDefinition Width="69*"/>
+        </Grid.ColumnDefinitions>
+        <Label x:Name="lbAddTagWindow" Grid.Column="1" Content="Tag Management" Margin="47,21,0,2" HorizontalAlignment="Left" FontSize="40" Width="323"/>
+        <Label x:Name="lbID" Content="ID" HorizontalAlignment="Left" Grid.Row="1" VerticalAlignment="Center" Width="59" FontSize="20" Height="34" Margin="18,0,0,0"/>
+        <Label x:Name="lbName" Content="Name" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Width="78" FontSize="20" Height="36"/>
+        <Label x:Name="lbNote" Content="Note" HorizontalAlignment="Left" Grid.Row="3" VerticalAlignment="Center" Width="59" FontSize="20" Height="34" Margin="18,0,0,0"/>
+        <TextBox x:Name="txtID" BorderBrush="#FFC8C8C8" BorderThickness="2" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Center" Width="455" Height="38" FontSize="20"/>
+        <TextBox x:Name="txtName" BorderBrush="#FFC8C8C8" BorderThickness="2" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Center" Width="455" Height="40" FontSize="20"/>
+        <TextBox x:Name="txtNote" BorderBrush="#FFC8C8C8" BorderThickness="2" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="3" TextWrapping="Wrap" VerticalAlignment="Center" Width="455" Height="38" FontSize="20"/>
+        <StackPanel Grid.Column="1" Grid.Row="4" Orientation="Horizontal" Margin="66,10,123,67" RenderTransformOrigin="0.531,1.963">
+            <Button x:Name="btnAdd"  Content="Add" FontSize="20" Width="135" Click="btnAdd_Click" RenderTransformOrigin="0.519,1.414" Foreground="Black" BorderBrush="White"/>
+            <Button x:Name="btnClose"  Content="Close" FontSize="20" Width="127" Click="btnClose_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

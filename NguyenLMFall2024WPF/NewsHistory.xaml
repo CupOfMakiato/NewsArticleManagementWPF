@@ -1,0 +1,13 @@
+﻿<Window x:Class="NguyenLMFall2024WPF.NewsHistory"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NguyenLMFall2024WPF"
+        mc:Ignorable="d"
+        Title="NewsHistory" Height="338" Width="584" Activated="Window_Activated">
+    <Grid>
+        <DataGrid x:Name="dgvNewsHistory" Margin="10,10,10,49" IsReadOnly="True"/>
+        <Button x:Name="btnClose" Content="Close" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,10,10" Click="btnClose_Click" Width="82" Height="34"/>
+    </Grid>
+</Window>
